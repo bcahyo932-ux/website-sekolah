@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Muhammadiyah Pakem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="Logo Sekolah" class="logo" onerror="this.style.display='none'">
+            <div class="header-text">
+                <h1>SMK MUHAMMADIYAH PAKEM</h1>
+                <p>Sekolah Unggul, Kreatif dan Berkemajuan</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav>
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">&#9776;</button>
+        <ul id="nav-links">
+            <li><a href="#beranda">&#127968; Beranda</a></li>
+            <li><a href="#profil">&#127979; Profil Sekolah</a></li>
+            <li><a href="#jurusan">&#128187; Program Keahlian</a></li>
+            <li><a href="#berita">&#128240; Berita</a></li>
+            <li><a href="#galeri">&#128247; Galeri</a></li>
+            <li><a href="#kontak">&#128222; Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- BERANDA -->
+    <section id="beranda">
+        <div class="hero">
+            <h2>Selamat Datang di SMK Muhammadiyah Pakem</h2>
+            <p>Kami berkomitmen mencetak generasi unggul, kreatif, dan berkarakter yang siap menghadapi tantangan dunia kerja dan industri.</p>
+            <a href="#profil" class="btn">Pelajari Lebih Lanjut</a>
+        </div>
+        <div class="stats">
+            <div class="stat-card">
+                <h3>500+</h3>
+                <p>Siswa Aktif</p>
+            </div>
+            <div class="stat-card">
+                <h3>40+</h3>
+                <p>Guru Berpengalaman</p>
+            </div>
+            <div class="stat-card">
+                <h3>4</h3>
+                <p>Program Keahlian</p>
+            </div>
+            <div class="stat-card">
+                <h3>15+</h3>
+                <p>Tahun Berdiri</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFIL SEKOLAH -->
+    <section id="profil">
+        <h2>Profil Sekolah</h2>
+        <div class="profil-grid">
+            <div class="profil-info">
+                <h3>Sejarah Singkat</h3>
+                <p>SMK Muhammadiyah Pakem berdiri sejak tahun 2008 dan terus berkembang menjadi salah satu sekolah kejuruan terbaik di wilayah Sleman, Yogyakarta. Sekolah ini berada di bawah naungan Persyarikatan Muhammadiyah dengan semangat membangun SDM yang berkualitas.</p>
+
+                <h3>Visi</h3>
+                <p>Terwujudnya SMK Muhammadiyah Pakem sebagai lembaga pendidikan yang menghasilkan lulusan berakhlak mulia, berprestasi, dan berdaya saing di tingkat nasional maupun global.</p>
+
+                <h3>Misi</h3>
+                <ul>
+                    <li>Menyelenggarakan pendidikan bermutu berbasis nilai-nilai Islam.</li>
+                    <li>Mengembangkan kompetensi siswa sesuai kebutuhan dunia industri.</li>
+                    <li>Membangun karakter siswa yang mandiri, kreatif, dan inovatif.</li>
+                    <li>Menjalin kerja sama dengan dunia usaha dan industri secara aktif.</li>
+                </ul>
+            </div>
+            <div class="profil-detail">
+                <h3>Informasi Sekolah</h3>
+                <table class="info-table">
+                    <tr><td>Nama Sekolah</td><td>SMK Muhammadiyah Pakem</td></tr>
+                    <tr><td>NPSN</td><td>20401234</td></tr>
+                    <tr><td>Akreditasi</td><td>A (Unggul)</td></tr>
+                    <tr><td>Kepala Sekolah</td><td>Drs. Ahmad Fauzi, M.Pd.</td></tr>
+                    <tr><td>Tahun Berdiri</td><td>2008</td></tr>
+                    <tr><td>Status</td><td>Swasta</td></tr>
+                    <tr><td>Kabupaten</td><td>Sleman, D.I. Yogyakarta</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAM KEAHLIAN -->
+    <section id="jurusan">
+        <h2>Program Keahlian</h2>
+        <p class="section-desc">SMK Muhammadiyah Pakem menyediakan empat program keahlian unggulan yang siap mempersiapkan siswa memasuki dunia kerja profesional.</p>
+        <div class="jurusan-grid">
+            <div class="jurusan-card">
+                <div class="jurusan-icon">&#128187;</div>
+                <h3>Rekayasa Perangkat Lunak</h3>
+                <p>Mempelajari pengembangan aplikasi, pemrograman web, mobile, serta basis data untuk mempersiapkan ahli teknologi informasi.</p>
+            </div>
+            <div class="jurusan-card">
+                <div class="jurusan-icon">&#127912;</div>
+                <h3>Animasi</h3>
+                <p>Mengembangkan kreativitas di bidang animasi 2D, 3D, desain grafis, dan produksi media digital yang siap bersaing di industri kreatif.</p>
+            </div>
+            <div class="jurusan-card">
+                <div class="jurusan-icon">&#128200;</div>
+                <h3>Akuntansi dan Keuangan</h3>
+                <p>Mempersiapkan tenaga ahli di bidang akuntansi, keuangan, dan perbankan yang kompeten dan berintegritas tinggi.</p>
+            </div>
+            <div class="jurusan-card">
+                <div class="jurusan-icon">&#128269;</div>
+                <h3>Teknik Jaringan Komputer</h3>
+                <p>Mempelajari instalasi jaringan, keamanan siber, dan administrasi sistem untuk mempersiapkan teknisi jaringan profesional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BERITA -->
+    <section id="berita">
+        <h2>Berita &amp; Informasi</h2>
+        <p class="section-desc">Ikuti perkembangan terbaru kegiatan dan prestasi SMK Muhammadiyah Pakem.</p>
+        <div class="berita-grid">
+            <div class="berita-card">
+                <div class="berita-tanggal">10 Nov 2026</div>
+                <h3>Juara 1 LKS Provinsi DIY Bidang Web Technology</h3>
+                <p>Siswa kelas XI RPL, Farhan Adi Nugroho, berhasil meraih Juara 1 dalam Lomba Kompetensi Siswa (LKS) tingkat Provinsi DIY bidang Web Technology yang diselenggarakan di Yogyakarta.</p>
+                <a href="#" class="berita-link">Baca Selengkapnya &rarr;</a>
+            </div>
+            <div class="berita-card">
+                <div class="berita-tanggal">05 Nov 2026</div>
+                <h3>Penerimaan Peserta Didik Baru Tahun 2027 Dibuka</h3>
+                <p>SMK Muhammadiyah Pakem resmi membuka pendaftaran Penerimaan Peserta Didik Baru (PPDB) untuk tahun ajaran 2026/2027. Pendaftaran dapat dilakukan secara online maupun langsung ke sekolah.</p>
+                <a href="#" class="berita-link">Baca Selengkapnya &rarr;</a>
+            </div>
+            <div class="berita-card">
+                <div class="berita-tanggal">28 Okt 2026</div>
+                <h3>Kunjungan Industri ke PT Tokopedia Jakarta</h3>
+                <p>Sebanyak 80 siswa kelas XI RPL dan TJK melaksanakan kunjungan industri ke kantor pusat Tokopedia di Jakarta untuk menambah wawasan dunia kerja nyata di bidang teknologi.</p>
+                <a href="#" class="berita-link">Baca Selengkapnya &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri">
+        <h2>Galeri Kegiatan</h2>
+        <p class="section-desc">Dokumentasi berbagai kegiatan dan momen berharga di SMK Muhammadiyah Pakem.</p>
+        <div class="galeri-grid">
+            <div class="galeri-item">
+                <img src="images/sekolah.jpg" alt="Gedung Sekolah">
+                <div class="galeri-caption">Gedung Utama Sekolah</div>
+            </div>
+            <div class="galeri-item">
+                <img src="images/kegiatan.jpg" alt="Kegiatan Siswa">
+                <div class="galeri-caption">Praktik Pemrograman RPL</div>
+            </div>
+            <div class="galeri-item">
+                <img src="images/lab.jpg" alt="Laboratorium Komputer">
+                <div class="galeri-caption">Laboratorium Komputer</div>
+            </div>
+            <div class="galeri-item">
+                <img src="images/upacara.jpg" alt="Upacara Bendera">
+                <div class="galeri-caption">Upacara Bendera</div>
+            </div>
+            <div class="galeri-item">
+                <img src="images/ekstrakurikuler.jpg" alt="Ekstrakurikuler">
+                <div class="galeri-caption">Kegiatan Ekstrakurikuler</div>
+            </div>
+            <div class="galeri-item">
+                <img src="images/wisuda.jpg" alt="Wisuda">
+                <div class="galeri-caption">Wisuda Angkatan 2026</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak">
+        <h2>Kontak Sekolah</h2>
+        <p class="section-desc">Hubungi kami untuk informasi lebih lanjut mengenai pendaftaran dan kegiatan sekolah.</p>
+        <div class="kontak-grid">
+            <div class="kontak-info">
+                <div class="kontak-item">
+                    <span class="kontak-icon">&#128205;</span>
+                    <div>
+                        <strong>Alamat</strong>
+                        <p>Jl. Kaliurang KM 17, Pakem, Sleman, Daerah Istimewa Yogyakarta 55582</p>
+                    </div>
+                </div>
+                <div class="kontak-item">
+                    <span class="kontak-icon">&#128231;</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p>info@smkmuhpakem.sch.id</p>
+                    </div>
+                </div>
+                <div class="kontak-item">
+                    <span class="kontak-icon">&#128222;</span>
+                    <div>
+                        <strong>Telepon</strong>
+                        <p>(0274) 895-1234</p>
+                    </div>
+                </div>
+                <div class="kontak-item">
+                    <span class="kontak-icon">&#128337;</span>
+                    <div>
+                        <strong>Jam Operasional</strong>
+                        <p>Senin &ndash; Sabtu: 07.00 &ndash; 15.00 WIB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kontak-form">
+                <h3>Kirim Pesan</h3>
+                <form>
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <input type="email" placeholder="Alamat Email" required>
+                    <input type="text" placeholder="Subjek">
+                    <textarea placeholder="Tulis pesan Anda di sini..." rows="5" required></textarea>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>SMK Muhammadiyah Pakem</h4>
+                <p>Sekolah Unggul, Kreatif dan Berkemajuan di bawah naungan Persyarikatan Muhammadiyah.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Menu Cepat</h4>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#profil">Profil Sekolah</a></li>
+                    <li><a href="#jurusan">Program Keahlian</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Program Keahlian</h4>
+                <ul>
+                    <li>Rekayasa Perangkat Lunak</li>
+                    <li>Animasi</li>
+                    <li>Akuntansi dan Keuangan</li>
+                    <li>Teknik Jaringan Komputer</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Ikuti Kami</h4>
+                <p>&#128247; Instagram: @smkmuhpakem</p>
+                <p>&#127916; YouTube: SMK Muh Pakem</p>
+                <p>&#128172; Facebook: SMK Muhammadiyah Pakem</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SMK Muhammadiyah Pakem. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        }
+
+        // Active nav highlight on scroll
+        const sections = document.querySelectorAll('section');
+        const links = document.querySelectorAll('nav ul li a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 80;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            links.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Close mobile menu on link click
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-links').classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
